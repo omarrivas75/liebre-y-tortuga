@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0"
+xmlns="http://javafx.com/javafx/13"
+xmlns:fx="http://javafx.com/fxml/1"
+fx:controller="com.mycompany.liebreytortuga.LytorController">
+
+<children>
+
+<Label layoutX="60.0"
+layoutY="50.0"
+text="La liebre y la tortuga" />
+
+<Button fx:id="btnIniciar"
+layoutX="60.0"
+layoutY="85.0"
+mnemonicParsing="false"
+onAction="#iniciarCarrera"
+text="Iniciar carrera" />
+
+<Label fx:id="lblLiebre"
+layoutX="60.0"
+layoutY="140.0"
+text="La liebre:" />
+
+<ProgressBar fx:id="progressLiebre"
+layoutX="60.0"
+layoutY="165.0"
+prefWidth="200.0"
+progress="0.0" />
+
+<Label fx:id="lblTortuga"
+layoutX="60.0"
+layoutY="205.0"
+text="La Tortuga:" />
+
+<ProgressBar fx:id="progressTortuga"
+layoutX="60.0"
+layoutY="230.0"
+prefWidth="200.0"
+progress="0.0" />
+
+    </children>
+
+</AnchorPane>
